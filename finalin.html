@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="finalstyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <span id="title">FOOTBALL PENALTY SHOOTOUT</span>
+            <div class="row result" id="result"  hidden></div>
+            <div class="row">
+                <div class="col">
+                    <img  src = "580b57fcd9996e24bc43c4e7.png" height="100px" width="100px">
+                    <span class="row text" id="team1-name"></span>
+                    <div class="row goals" id="team1-goals">
+                        <span class="col"> - </span>
+                        <span class="col"> - </span>
+                        <span class="col"> - </span>
+                        <span class="col"> - </span>
+                        <span class="col"> - </span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row">
+                        <span id="team1-score"></span>
+                        <span>-</span>
+                        <span id="team2-score"></span>
+
+                    </div>
+                  
+
+                </div>
+                <div class="col">
+                    <img src = "unnamed.png" height="100px" width="100px" >
+                    <span class="row text" id="team2-name"></span>
+                    <div class="row goals" id="team2-goals">
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <button type="button" onclick="shootButton()" id="shootbutton">SHOOT</button>
+            </div>
+
+           
+
+        </div>
+
+        <div class="container2" id="container2">
+            
+            <div class="row result" id="result1"  hidden></div>
+            <div class="row">
+                <div class="col">
+                    <img  src = "real-madrid-logo-vector.png" height="100px" width="100px">
+                    <span class="row text" id="team3-name"></span>
+                    <div class="row goals" id="team3-goals">
+                        <span class="col"> - </span>
+                        <span class="col"> - </span>
+                        <span class="col"> - </span>
+                        <span class="col"> - </span>
+                        <span class="col"> - </span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row">
+                        <span id="team3-score"></span>
+                        <span>-</span>
+                        <span id="team4-score"></span>
+
+                    </div>
+                  
+
+                </div>
+                <div class="col">
+                    <img src = "barcelona-logo-vector-300x300.png" height="100px" width="100px" >
+                    <span class="row text" id="team4-name"></span>
+                    <div class="row goals" id="team4-goals">
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <button type="button" onclick="m2shootButton()" id="m2shootbutton">SHOOT</button>
+            </div>
+            <div class="row">
+
+            </div>
+
+            <div class="row">
+                <button type="button" onclick="final()" id="final">Final Match</button>
+            </div>
+            <div>
+
+
+
+            </div>
+
+            <div class="container3">
+                <div class="row result" id="result2"  hidden></div>
+                <div class="row">
+                    <div class="col">
+                        <img  src = "" id="finalteam1img" height="100px" width="100px">
+                        <span class="row text" id="team5-name"></span>
+                        <div class="row goals" id="team5-goals">
+                            <span class="col"> - </span>
+                            <span class="col"> - </span>
+                            <span class="col"> - </span>
+                            <span class="col"> - </span>
+                            <span class="col"> - </span>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="row">
+                            <span id="team5-score"></span>
+                            <span>-</span>
+                            <span id="team6-score"></span>
+    
+                        </div>
+                      
+    
+                    </div>
+                    <div class="col">
+                        <img src = "" id="finalteam2img" height="100px" width="100px" >
+                        <span class="row text" id="team6-name"></span>
+                        <div class="row goals" id="team6-goals">
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <button type="button" onclick="m3shootButton()" id="m3shootbutton">SHOOT</button>
+                </div>
+
+           
+
+        </div>
+
+    </div>
+    <script src="finalprog.js"></script>
+</body>
+</html>

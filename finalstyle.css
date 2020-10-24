@@ -1,0 +1,72 @@
+body{
+    background-image: url("timothy-tan-PAe2UhGo-S4-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+}
+.container{
+    padding: 50px;
+
+}
+.container1,.container2,.container3{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    width: 800px;
+    
+}
+.col{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.container > .row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.text{
+    font-size:x-large;
+}
+.goals{
+    justify-content: space-evenly;
+    width: 250px;
+}
+.result{
+    border: none;
+	border-radius: 25px;
+	background: linear-gradient(135deg, #77c024, yellow);
+    font-size: large;
+    text-align: center;
+    width: 300px;
+    
+	color:black;
+}
+.text{
+    color:white;
+    font-weight: bolder;
+}
+#title{
+	background: linear-gradient(135deg, #c02425, #5248e0);
+	font-size: xx-large;
+	width: 550px;
+	color: white;
+}
+
+#shootbutton,#m2shootbutton,#m3shootbutton,#final{
+    border:black
+	border-radius: 15px;
+	background: linear-gradient(135deg, #c02425, #5248e0);
+	font-size: smaller;
+	width: 250px;
+	color: white;
+
+}
